@@ -7,6 +7,14 @@ from random import randint
 
 # pygame.time.get_ticks()
 
+def gamer():
+    return 1
+
+
+def gamer2():
+    return 1
+
+
 class AlienFleet:
     alien_exploding_images = [pg.image.load(f'images/explosion{n}.png') for n in range(1, 5)]
 
